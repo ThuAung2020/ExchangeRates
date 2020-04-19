@@ -65,5 +65,12 @@ Currency Exchange Rates app for Myanmar, using Central Bank of Myanmar API
 }
 ```
 
-** Please note that History API returns `rates` as empty JSONArray if there is no data at your selected date.**
+##### Please note that History API returns `rates` as empty JSONArray if there is no data at your selected date.
+
+#### *Buy Me a Coffee*
+- CB Bank : 0065-6001-0005-6898
+
+- KBZ Pay, Wave Pay : 09689966123
+- Visa : 4279-4700-0022-2100
+
 
