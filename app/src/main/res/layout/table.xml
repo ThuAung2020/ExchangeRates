@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:visibility="visible"
+	android:id="@+id/tableLinearLayout"
+	android:background="@drawable/card_accent">
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_weight="18"
+		android:gravity="center"
+		android:textColor="@android:color/white"
+		android:padding="10dp"
+		android:text="@string/country"/>
+
+	<View
+		android:background="@android:color/white"
+		android:layout_width="1dp"
+		android:layout_height="match_parent"/>
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="@string/currency"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_weight="10"
+		android:gravity="center"
+		android:textColor="@android:color/white"
+		android:padding="10dp"/>
+
+	<View
+		android:background="@android:color/white"
+		android:layout_width="1dp"
+		android:layout_height="match_parent"/>
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="@string/rate"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_weight="10"
+		android:gravity="center"
+		android:textColor="@android:color/white"
+		android:padding="10dp"/>
+
+</LinearLayout>
+

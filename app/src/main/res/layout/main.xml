@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<ProgressBar
+		android:layout_width="match_parent"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_height="wrap_content"
+		android:indeterminate="true"
+		android:indeterminateTintMode="src_atop"
+		android:indeterminateTint="@color/colorAccent"
+		android:id="@+id/mainProgressBar1"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="14-3-2020"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:padding="10dp"
+		android:background="@color/ripple"
+		android:textColor="@android:color/black"
+		android:id="@+id/mainTextView1"
+		android:visibility="gone"/>
+
+	<include
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		layout="@layout/table"
+		android:id="@+id/maininclude1"
+		android:layout_marginTop="10dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginEnd="10dp"/>
+
+	<ListView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1.0"
+		android:id="@+id/mainListView1"
+		android:clipToPadding="false"
+		android:divider="@null"
+		android:dividerHeight="5dp"
+		android:scrollbarStyle="outsideOverlay"
+		android:padding="10dp"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text="@string/currency_calculator"
+		android:layout_margin="15dp"
+		android:background="@drawable/btn_material"
+		android:textColor="@android:color/white"
+		android:id="@+id/mainButton1"/>
+
+</LinearLayout>
+

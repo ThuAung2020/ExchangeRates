@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="15dp"
+	android:background="@drawable/card_white">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Spinner
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/dialogcalculatorSpinner1"
+			android:gravity="center"/>
+
+		<Spinner
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/dialogcalculatorSpinner2"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+
+		<EditText
+			android:layout_width="0dp"
+			android:inputType="number"
+			android:layout_height="50dp"
+			android:background="@drawable/edt_material"
+			android:layout_weight="1.0"
+			android:id="@+id/dialogcalculatorEditText1"
+			android:paddingStart="10dp"
+			android:paddingEnd="10dp"
+			android:text="1"/>
+
+		<ImageView
+			android:src="@drawable/ic_exchange"
+			android:layout_width="20dp"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:adjustViewBounds="true"/>
+
+		<EditText
+			android:layout_width="0dp"
+			android:inputType="number"
+			android:layout_height="50dp"
+			android:background="@drawable/edt_material"
+			android:layout_weight="1.0"
+			android:id="@+id/dialogcalculatorEditText2"
+			android:paddingEnd="10dp"
+			android:paddingStart="10dp"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text="Close"
+		android:background="@drawable/btn_material"
+		android:textColor="@android:color/white"
+		android:layout_marginTop="15dp"
+		android:id="@+id/dialogcalculatorButton1"/>
+
+</LinearLayout>
+
