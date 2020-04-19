@@ -11,18 +11,59 @@ Currency Exchange Rates app for Myanmar, using Central Bank of Myanmar API
 #### 1. Latest API
 
 ```json
-                {
-                    "info":"Central Bank of Myanmar",
-                    "description":"Official Website of Central Bank of Myanmar",
-                    "timestamp":"1337936081",
-                    "rates":{
-                        "USD":"840",
-                        "CHF":"1319",
-                        "BDT":"298",
-                        "SGD":"632",
-                        "JPY":"1053",
-                        "GBP":"887",
-                        "AUD":"759"
-                        }
-                    }
-                    ```
+{
+  "info": "Central Bank of Myanmar",
+  "description": "Official Website of Central Bank of Myanmar",
+  "timestamp": "1337936081",
+  "rates": {
+    "USD": "840",
+    "CHF": "1319",
+    "BDT": "298",
+    "SGD": "632",
+    "JPY": "1053",
+    "GBP": "887",
+    "AUD": "759"
+  }
+}
+```
+
+#### 2. Currencies API
+
+```json
+{
+  "info": "Central Bank of Myanmar",
+  "description": "Official Website of Central Bank of Myanmar",
+  "currencies": {
+    "EUR": "Euro",
+    "GBP": "Pound sterling",
+    "CHF": "Swiss franc",
+    "JPY": "Japanese yen",
+    "AUD": "Australian dollar",
+    "USD": "United State Dollar",
+    "INR": "Indian rupee",
+    "Peso": "Phillipines Peso"
+  }
+}
+```
+
+#### 3. History API
+
+```json
+{
+  "info": "Central Bank of Myanmar",
+  "description": "Official Website of Central Bank of Myanmar",
+  "timestamp": 1341077400,
+  "rates": {
+    "USD": "882",
+    "AUD": "864",
+    "GBP": "1288",
+    "EUR": "1073",
+    "INR": "15",
+    "JPY": "983",
+    "CHF": "888"
+  }
+}
+```
+
+** Please note that History API returns `rates` as empty JSONArray if there is no data at your selected date.**
+
