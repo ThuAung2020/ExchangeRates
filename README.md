@@ -1,7 +1,7 @@
 # ExchangeRates
 Currency Exchange Rates app for Myanmar, using Central Bank of Myanmar API
 
-> Please note that I'm sharing my projects for free to be able to learn for beginners and intermediate level developers. So if you like my projects, you can buy me a coffee. Scroll down to bottom for more info.
+> Please note that I'm sharing my projects for free to be able to learn for beginners and intermediate level developers. So if you like my projects, you can buy me a coffee. View all of README.md for more info.
 
 ### Central Bank of Myanmar API
 1. http://forex.cbm.gov.mm/api/latest
