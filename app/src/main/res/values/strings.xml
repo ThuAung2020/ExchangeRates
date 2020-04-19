@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exchange Rates</string>
+    <string name="hello_world">Hello, World!</string>
+	<string name="about_app">About Exchange Rates app\n\nAre you looking for :\n- a lightweight and simple,\n- user friendly\n- and no Ads Myanmar Exchange Rates app?\nThen, this one is for you. I used public API of Central Bank of Myanmar to retrieve exchange rates data. You can also able to use Currency Calculator.\n\nCentral Bank of Myanmar API\nhttps://forex.cbm.gov.mm/index.php/api\n\nDeveloped by Kaung Khant Kyaw using AIDE (Android IDE).</string>
+	<string name="ok">OK</string>
+	<string name="currency_calculator">Currency Calculator</string>
+	<string name="country">Country</string>
+	<string name="currency">Currency</string>
+	<string name="rate">Rate</string>
+</resources>
